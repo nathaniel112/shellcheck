@@ -1,0 +1,9 @@
+$ shellcheck myscript
+ 
+Line 4:
+<!DOCTYPE html>
+^-- SC1009: The mentioned parser error was in this simple command.
+              ^-- SC1073: Couldn't parse this redirection.
+               ^-- SC1072: Fix any mentioned problems and try again.
+
+$ 
